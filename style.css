@@ -37,8 +37,9 @@ body{
   color: yellowgreen;
 }
 .devPic:hover{
-  background-color: lavender;
-  object-fit: cover;
+  border-radius:60%;
+  background-image: gold;
+  object-fit:contain;
 
 }
 
@@ -51,13 +52,20 @@ body{
   border-color: black;
   border-spacing: 1px;
   border-color: greenyellow;
-  background-color: gold;
+  background-color: blue;
+
+}
+.dp:hover{
+  transform: scale(1.1);
+  transform-style: preserve-3d;
 }
 .devInfo{
   display: inline-block;
   justify-content:  flex-start;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  color: #04009A;
+  font-size-adjust: auto;
 
 }
 
@@ -220,18 +228,21 @@ justify-content: center;
   color: white;
 }
 .m{
-  color: greenyellow;
+  color: black;
   border-width: 2px;
   border-color: black;
   border-spacing: 1px;
 
 }
+.m:hover{
+  color:red;
+}
 .k{
-  color:pink;
+  color:black;
     font-family: 'Poppins', sans-serif;
 }
 .k:hover{
-  color:yellow
+  color:darkblue;
 }
 .z{
   color: yellow;
@@ -250,5 +261,17 @@ width: 300px;
   color:yellowgreen;
 }
 .o:hover{
-  color:yellow;
+  color:dodgerblue;
+}
+.o{
+  color:purple;
+}
+.i{
+  border-radius: 50%;
+}
+.i:hover{
+  transform:matrix(1.1);
+}
+#gradient{
+background-image: linear-gradient(orange,orange, white,white, green,green);
 }
